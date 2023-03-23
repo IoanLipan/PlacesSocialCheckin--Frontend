@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Backdrop from "./Backdrop";
 import { CSSTransition } from "react-transition-group";
 
-import "./Modal.css"; 
+import "./Modal.css";
 
 const ModalOverlay = (props) => {
   const content = (
@@ -13,7 +13,7 @@ const ModalOverlay = (props) => {
       </header>
       <form
         onSubmit={
-          props.onSubmit ? props.onSubmit : (event) => event.preventDefault
+          props.onSubmit ? props.onSubmit : (event) => event.preventDefault()
         }
       >
         <div className={`modal__content ${props.contentClass}`}>
