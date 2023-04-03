@@ -7,8 +7,7 @@ const DUMMY_PLACES = [
     id: "p1",
     title: "Empire state building",
     description: "one of the biggest buildings in the world",
-    imageURL:
-      "https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg",
+    imageURL: "https://unsplash.com/photos/FD-gzGKS5sY",
     address: "20 W 34th St., New York, NY 10001, United States",
     location: {
       lat: 40.7484405,
@@ -18,16 +17,15 @@ const DUMMY_PLACES = [
   },
   {
     id: "p2",
-    title: "Empire state building",
-    description: "one of the biggest buildings in the world",
-    imageURL:
-      "https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg",
-    address: "20 W 34th St., New York, NY 10001, United States",
+    title: "Mirador Hanga Kioe",
+    description: "An ancient and mysterious statue from the easter island",
+    imageURL: "https://unsplash.com/photos/IihpWkddhFY",
+    address: "Unnamed Road, Isla de Pascua, Valparaíso, Chile",
     location: {
-      lat: 40.7484405,
-      lng: -73.9878584,
+      lat: -27.14709359,
+      lng: -109.42676051,
     },
-    creator: "u2",
+    creator: "u1",
   },
 ];
 
